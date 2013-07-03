@@ -1,0 +1,52 @@
+<div align="center">
+    <strong>Welcome to the Train Stop Calculator </strong>
+<form name="myform" action="/calc" method="POST">
+
+
+    <select name="start_st">
+        <option value="n8th">N-8th</option>
+        <option value="US">Union Square</option>
+        <option value="n23rd">N-23rd</option>
+        <option value = "n28th">N-28th</option>
+        <option value="n34th">N-34th</option>
+        <option value="TS">Time Square</option>
+        <option value="sv42nd">7-42nd</option>
+        <option value="sv5th">7-5th</option>
+        <option value="GC">GC</option>
+        <option value="VJ"> VJ</option>
+        <option value="sx33rd">6-33rd</option>
+        <option value="sx28th">6-28th </option>
+        <option value="AP">AP</option>
+        <option value="l8th">L-8th</option>
+        <option value="l6th">L-6th</option>
+        <option value="l3rd">L-3rd</option>
+        <option value="l1st">L-1st</option>
+    </select>
+    Starting Station
+    <p></p>
+    <select name="end_st">
+        <option value="n8th">N-8th</option>
+        <option value="US">Union Square</option>
+        <option value="n23rd">N-23rd</option>
+        <option value = "n28th">N-28th</option>
+        <option value="n34th">N-34th</option>
+        <option value="TS">Time Square</option>
+        <option value="sv42nd">7-42nd</option>
+        <option value="sv5th">7-5th</option>
+        <option value="GC">GC</option>
+        <option value="VJ"> VJ</option>
+        <option value="sx33rd">6-33rd</option>
+        <option value="sx28th">6-28th </option>
+        <option value="AP">AP</option>
+        <option value="l8th">L-8th</option>
+        <option value="l6th">L-6th</option>
+        <option value="l3rd">L-3rd</option>
+        <option value="l1st">L-1st</option>
+    </select>
+     Ending Station
+     <p> </p>
+     <input type="submit" value="Submit">
+</form>
+<%= image_tag("tubemap_s.png") %>
+</div>
+<%= @which_action %>
